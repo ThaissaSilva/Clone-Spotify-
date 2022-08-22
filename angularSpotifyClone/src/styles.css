@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@100&display=swap');
+
+:root{
+--cor-fundo: #fbfef4;
+--cor-primaria: #37AB00;
+
+
+--fonte-padrao: 'Montserrat', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+}
+
+*{
+    font-family: var(--fonte-padrao);
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
